@@ -1,92 +1,95 @@
+/* Navbar  using scss*/
+.navbar {
+  box-shadow: 2px 2px 5px #1c3c33;
+  background-color: #f7f7f7;
+  opacity: 0.9;
+  background: #fff;
 
-  
-  /* Navbar  using scss*/
-  .navbar {
-    box-shadow: 2px 2px 5px #1c3c33;
-    background-color: #f7f7f7;
-    opacity: 0.9;
-    background: #fff;
-  
-    .container {
-      .nav-item {
-        font-size: 1.2rem;
-        padding-right: 1.8rem;
-        color: black;
-        font-family: "BioRhyme", serif;
-        
-      }
-    
-      @media (max-width: 995px) {
-        .nav-item {
-          font-size: 1.0rem;
-          padding-right: 1.0rem;
-          color: black;
-          font-family: "BioRhyme", serif;
-          
-        }
-      }
-    }
-  }
-  
-  header::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  nav li {
-    display: inline-block;
-   
-    padding-top: 20px;
-    position: relative;
-    a {
+  .container {
+    .nav-item {
+      font-size: 1.2rem;
+      padding-right: 1.8rem;
       color: black;
-      text-decoration: none;
-      text-transform: uppercase;
-      list-style: none;
-      text-decoration: none;
-    
       font-family: "BioRhyme", serif;
     }
-    a:hover {
-      color: rgb(3, 53, 40);
-      list-style: none;
-      text-decoration: none;
-    }
-    a::before {
-      content: " ";
-      display: block;
-      height: 5px;
-      background-color: #141a29;
-      position: absolute;
-      top: 0;
-      width: 0%;
-      transition: ease-in-out 350ms;
-    }
-    a:hover::before {
-      width: 70%;
+
+    @media (max-width: 995px) {
+      .nav-item {
+        font-size: 1rem;
+        padding-right: 1rem;
+        color: black;
+        font-family: "BioRhyme", serif;
+      }
     }
   }
-   // end of navbar
+}
 
-   .logo {
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav li {
+  display: inline-block;
+
+  padding-top: 20px;
+  position: relative;
+  a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: "BioRhyme", serif;
+  }
+  a:hover {
+    color: rgb(3, 53, 40);
+    list-style: none;
+    text-decoration: none;
+  }
+  a::before {
+    content: " ";
+    display: block;
+    height: 5px;
+    background-color: #141a29;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: ease-in-out 350ms;
+  }
+  a:hover::before {
+    width: 70%;
+  }
+}
+// end of navbar
+
+.logo {
+  padding: 0;
+  height: 70px;
+  margin-top: 0px;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    padding: 0;
+    height: 10px;
+    margin-top: 10px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .logo {
     padding: 0;
     height: 70px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
-  
-  @media (max-width: 500px) {
-    .logo {
-      padding: 0;
-      height: 10px;
-      margin-top: 10px;
-    }
+}
+
+@media (max-width: 768px) {
+ nav li a:hover::before {
+    width: 20%;
   }
-  
-  @media (max-width: 768px) {
-    .logo {
-      padding: 0;
-      height: 70px;
-      margin-top: 10px;
-    }
-  }
-  
+}
+
