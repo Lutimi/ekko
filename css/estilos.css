@@ -11,8 +11,8 @@
     font-family: "BioRhyme", serif; }
   @media (max-width: 995px) {
     .navbar .container .nav-item {
-      font-size: 1.0rem;
-      padding-right: 1.0rem;
+      font-size: 1rem;
+      padding-right: 1rem;
       color: black;
       font-family: "BioRhyme", serif; } }
 
@@ -64,6 +64,10 @@ nav li {
     padding: 0;
     height: 70px;
     margin-top: 10px; } }
+
+@media (max-width: 768px) {
+  nav li a:hover::before {
+    width: 20%; } }
 
 /* footer Section */
 #main-footer {
@@ -199,33 +203,6 @@ nav li {
       font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
     .portfolio-modal .modal-dialog .modal-content p {
       margin-bottom: 2rem; }
-
-.img1 {
-  width: 50px; }
-
-.img2 {
-  width: 100px; }
-
-.img3 {
-  width: 150px; }
-
-.img4 {
-  width: 200px; }
-
-.img5 {
-  width: 250px; }
-
-.img6 {
-  width: 300px; }
-
-.img3 {
-  height: 300px; }
-
-.prueba1 {
-  background: #000000;
-  color: #ffff;
-  width: 1022px;
-  background: purple; }
 
 /*  Variables */
 /* Global clases */
