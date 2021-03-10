@@ -224,7 +224,7 @@ html {
   position: relative; }
 
 body {
-  background: #ccc;
+  background: white;
   /* margin: 30px 50px; */
   line-height: 1.4;
   margin-bottom: 200px;
@@ -247,26 +247,26 @@ body {
   .bannerInicio h1 {
     font-size: 4rem;
     margin-bottom: 0;
-    color: #ddd; }
+    color: white; }
   .bannerInicio p {
     margin: 10px 0 10px 0;
     font-size: 1.3rem;
     margin-top: 0;
-    color: #ddd; }
+    color: white; }
   @media (max-width: 512px) {
     .bannerInicio h1 {
       font-size: 34px;
       margin-bottom: 0;
-      color: #ddd; }
+      color: white; }
     .bannerInicio p {
       margin: 10px 0 10px 0;
       font-size: 25px;
       margin-top: 0;
-      color: #ddd; } }
+      color: white; } }
 
 .btnBanner {
   background-color: var(--dark);
-  color: #ddd;
+  color: white;
   padding: 0.6rem 1.3rem;
   text-decoration: none;
   border: 0;
@@ -274,7 +274,7 @@ body {
 
 .secondSection {
   margin: 50px 0 50px 0;
-  background: #ddd;
+  background: white;
   box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8); }
   .secondSection .origenes {
     width: 100%;
@@ -310,7 +310,7 @@ body {
 
 /* Info */
 .info {
-  background: #ddd;
+  background: white;
   box-shadow: #333;
   display: grid;
   grid-gap: 30px;
@@ -319,7 +319,7 @@ body {
 
 /* Comments Section */
 .comentarios {
-  background: #ddd;
+  background: white;
   box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   padding-bottom: 100px; }
 
@@ -379,7 +379,7 @@ body {
   margin: 10px;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-  background: #ddd;
+  background: white;
   box-shadow: #333; }
   .card img {
     width: 100%;
@@ -390,14 +390,14 @@ body {
   .card .text > button {
     width: 100%;
     background: var(--dark);
-    color: #ddd;
+    color: white;
     padding: 0.6rem 1.3rem;
     text-decoration: none;
     border: 0; }
 
 .btn {
   background: #333;
-  color: #ddd;
+  color: white;
   box-sizing: border-box;
   text-decoration: none;
   border: 0; }
@@ -440,15 +440,15 @@ img {
   .showcase h1 {
     font-size: 4rem;
     margin-bottom: 0;
-    color: #ddd; }
+    color: white; }
   .showcase p {
     font-size: 1.3rem;
     margin-top: 0;
-    color: #ddd; }
+    color: white; }
 
 /* Top Box */
 .topBox {
-  background: #ddd;
+  background: white;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -469,7 +469,7 @@ img {
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
   .boxes .box {
-    background: #ddd;
+    background: white;
     text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: #333; }
@@ -556,10 +556,6 @@ img {
 *::after {
   box-sizing: border-box; }
 
-::selection {
-  background: #fed136;
-  text-shadow: none; }
-
 #pageHeader {
   height: 300px;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../imagenes/portfolio/cocina-img3-accscocina.JPG.jpg);
@@ -580,7 +576,7 @@ img {
     padding-top: 50px; } }
 
 .colorTestimonials {
-  background: #ddd; }
+  background: white; }
 
 .dark-overlay {
   position: absolute;

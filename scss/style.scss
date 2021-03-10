@@ -2,12 +2,12 @@
 @import "navbar";
 @import "footer";
 @import "portafolio";
-@import "desafio";
+
 /*  Variables */
 //colores
-$white: #ddd;
+$white: rgb(255, 255, 255);
 $dark: #333;
-$background: #ccc;
+$background: rgb(255, 255, 255);
 $light: #ffff;
 $shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 
@@ -462,10 +462,7 @@ img {
 *::after {
   box-sizing: border-box;
 }
-::selection {
-  background: #fed136;
-  text-shadow: none;
-}
+
 
 #pageHeader {
   height: 300px;
