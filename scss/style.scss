@@ -99,6 +99,19 @@ body {
       color: $white;
     }
   }
+  @media (max-width: 411px) {
+    .h1 {
+      font-size: 24px;
+      margin-bottom: 0;
+      color: $white;
+    }
+    p {
+      margin: 10px 0 10px 0;
+      font-size: 22px;
+      margin-top: 0;
+      color: $white;
+    }
+  }
 }
 
 .btnBanner {
