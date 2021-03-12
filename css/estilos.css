@@ -284,7 +284,7 @@ body {
     letter-spacing: 5px;
     font-weight: bold;
     text-align: center; }
-  @media (max-width: 512px) {
+  @media (max-width: 520px) {
     .secondSection .origenes {
       width: 100%;
       font-family: "Source Serif Pro", serif;
