@@ -263,6 +263,16 @@ body {
       font-size: 25px;
       margin-top: 0;
       color: white; } }
+  @media (max-width: 375px) {
+    .bannerInicio .h1 {
+      font-size: 24px;
+      margin-bottom: 0;
+      color: white; }
+    .bannerInicio p {
+      margin: 10px 0 10px 0;
+      font-size: 20px;
+      margin-top: 0;
+      color: white; } }
 
 .btnBanner {
   background-color: var(--dark);
