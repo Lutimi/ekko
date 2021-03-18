@@ -164,7 +164,9 @@ nav li {
       #portfolio .portfolio-item .portfolio-caption .portfolio-modal .modal-content p.item-intro {
         font-style: italic;
         margin-bottom: 2rem;
-        font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+        font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+ "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem; }
@@ -200,7 +202,10 @@ nav li {
     .portfolio-modal .modal-dialog .modal-content p.item-intro {
       font-style: italic;
       margin-bottom: 2rem;
-      font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+      font-family: "Droid Serif", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+ "Noto Color Emoji"; }
     .portfolio-modal .modal-dialog .modal-content p {
       margin-bottom: 2rem; }
 
@@ -275,12 +280,12 @@ body {
       color: white; } }
   @media (max-width: 411px) {
     .bannerInicio .h1 {
-      font-size: 24px;
+      font-size: 22px;
       margin-bottom: 0;
       color: white; }
     .bannerInicio p {
       margin: 10px 0 10px 0;
-      font-size: 22px;
+      font-size: 20px;
       margin-top: 0;
       color: white; } }
 
@@ -290,8 +295,14 @@ body {
   padding: 0.6rem 1.3rem;
   text-decoration: none;
   border: 0;
-  margin-top: 20px; }
-
+  margin-top: 20px;
+  text-decoration: none; }
+  .btnBanner:hover {
+   
+    color: #f7f7f7;
+    text-decoration: none;
+  }
+  
 .secondSection {
   margin: 50px 0 50px 0;
   background: white;
@@ -420,7 +431,8 @@ body {
   color: white;
   box-sizing: border-box;
   text-decoration: none;
-  border: 0; }
+  border: 0;
+  color: #fffffe; }
 
 img {
   max-width: 100%; }
@@ -442,7 +454,8 @@ img {
 .topCcontainer {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: "showcase showcase topBoxBA" "showcase showcase topBoxBB"; }
+  grid-template-areas: "showcase showcase topBoxBA"
+ "showcase showcase topBoxBB"; }
 
 /* Showcase */
 .showcase {
@@ -520,7 +533,8 @@ img {
 
 @media (max-width: 500px) and (max-width: 700px) {
   .topCcontainer {
-    grid-template-areas: "showcase showcase" "topBoxBA topBoxBB"; }
+    grid-template-areas: "showcase showcase"
+ "topBoxBA topBoxBB"; }
   .showcase h1 {
     font-size: 2.5rem; }
   .main-nav ul {
@@ -534,7 +548,9 @@ img {
 
 @media (max-width: 500px) and (max-width: 500px) {
   .topCcontainer {
-    grid-template-areas: "showcase" "topBoxBA" "topBoxBB"; } }
+    grid-template-areas: "showcase"
+ "topBoxBA"
+ "topBoxBB"; } }
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
@@ -549,7 +565,10 @@ img {
     .portfolio-modal .modal-dialog .modal-content p.item-intro {
       font-style: italic;
       margin-bottom: 2rem;
-      font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+      font-family: "Droid Serif", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+ "Noto Color Emoji"; }
     .portfolio-modal .modal-dialog .modal-content p {
       margin-bottom: 2rem; }
 
