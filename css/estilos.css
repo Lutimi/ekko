@@ -107,7 +107,7 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 5px 0; }
+    margin: 5px 0 5px 0; }
     .footer .footer__Content__socials li {
       margin: 0 10px; }
     .footer .footer__Content__socials a {
